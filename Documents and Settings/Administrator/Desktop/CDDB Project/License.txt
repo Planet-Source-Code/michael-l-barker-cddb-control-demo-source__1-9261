@@ -1,0 +1,9 @@
+OK, I redid this control. Took under 1 day, works well. No more errors. As you know (or some of you do) my 1ST CDDB control stopped working, not sure why. But I lost the source to it. So I made this one. I won’t be making any updates to this program, because I doubt I’ll ever use it. I only made it for the people who asked me to. So have fun. There are very little close to no comments in the control. But if you’re looking for comments, look in the prototype.
+
+You may not sell this control. I’m not just saying that so I don’t get ripped. But you need to watch out for the CDDB people, they can and will catch you. I recommend checking out http://www.cddb.com/dev and read up on there service. In other words, I could care less what you do with this control. I shall not be held responsible for any of your actions.
+
+THIS CONTROL IS FREEWARE!
+
+-Michael L. Barker
+-mike1478@hotmail.com
+-ICQ#2233548 (Don't send blank requests!)

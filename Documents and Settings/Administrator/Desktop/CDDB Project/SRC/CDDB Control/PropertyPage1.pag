@@ -1,0 +1,48 @@
+VERSION 5.00
+Begin VB.PropertyPage PropertyPage1 
+   Caption         =   "Other Settings"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.TextBox txtDriveLetter 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.Label lblDriveLetter 
+      Caption         =   "DriveLetter:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "PropertyPage1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+Private Sub txtDriveLetter_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).DriveLetter = txtDriveLetter.Text
+End Sub
+
+
+
+Private Sub PropertyPage_SelectionChanged()
+    txtDriveLetter.Text = SelectedControls(0).DriveLetter
+End Sub
+
+
